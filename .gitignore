@@ -4,7 +4,7 @@ __pycache__/
 *$py.class
 
 # .cdf files containing raw data
-.cdf
+*.cdf
 
 # C extensions
 *.so
