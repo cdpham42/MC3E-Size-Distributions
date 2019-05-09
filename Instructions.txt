@@ -1,0 +1,30 @@
+Casey:
+
+Here is some better information about the data.  Because we want to look at only raindrop data (and not the data that were collected in snow or ice conditions), we are 
+going to need to only analyze the subset of data that were collected at temperatures greater than 0 Celsius (there may be some raindrops between 0 and -5 to -10 Celsius, 
+but in our first cut of the data we will not use those data as they are no doubt contaminated by the presence of snowflakes).  Thus, I now give you a better location to get 
+the data (ftp://mc3e.nsstc.nasa.gov/gpm_validation/mc3e/cloud_microphysics_Citation/UND_cloud_microphysics/data/QC_Processed/) where there is coincident information about 
+the characteristics of the environment.
+
+In this directory, there are a number of different subdirectories that possess files that give information on the environmental parameters.  Click on one directory and you 
+will find a file with the appendix .mc3e.  After a header that describes the contents of the file, there are a number of lines of data that give the values of the 
+parameters for different times.  We will be most interested in the air temperature field at first, but may ultimately need some of the other parameters as well to 
+interpret the data. Thus, the first task will be to see if you can write a MATLAB Program that will load these data into memory.  Let me know if you need any help in 
+setting this up.
+
+The other directory that I previously sent you (ending with NCAR particle probes) has the data that characterizes the size distributions that we are interested in.  
+To start with, I will recommend that you use the files that end in comb.spectrum.1Hz.  Because cloud and precipitation particles cover a large range of possible sizes 
+(about 50 micrometers all the way to 6.5 mm or so), there is not a single probe that is capable of measuring the size range of all particles. This combined spectrum file 
+includes contributions from the CIP or 2DC (that quite well measure particles with sizes less than 1000 microns) and from the HVPS (that better measures particles with 
+sizes greater than 1000 microns).  So, the structure of this file is again to have a header followed by the concentrations of particles in different size ranges.  
+The units of the concentration (or more properly determined number distribution function) is m^-4 since the concentrations are normalized by the widths of the bins 
+into which the data are sorted.    You also need to write a MATLAB program to load these data in.
+
+Then, you need to write a routine to match the size distributions from the comb file with the environmental data from the .mc3E file.  Then, we will plot the size 
+distributions from times with temperatures > 0 Celsius, and look at how the characteristics of the size distributions change with environmental conditions.  
+When you have time, stop by and I can give you more information on how to do all these tasks, and more details about what number distribution functions actually mean, 
+and how we might want to stratify the data for analysis.  I just wanted to make sure you now have access to the data to begin your investigations.
+
+Cheers,
+
+Greg

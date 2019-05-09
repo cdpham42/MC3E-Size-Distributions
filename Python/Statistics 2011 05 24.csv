@@ -1,0 +1,4 @@
+Rain Category,log(No*) Mean,log(No*) Std,R Mean,R Std,Dm Mean,Dm Std
+0-10 mmhr-1,5.46332953639,0.0,0.13426189,0.0,1.2241129317,0.0
+10-30 mmhr-1,nan,nan,nan,nan,nan,nan
+30-100 mmhr-1,nan,nan,nan,nan,nan,nan

@@ -1,0 +1,1 @@
+Time,Hour,Minute,Second,Air Temp,.03mm,.05mm,.07mm,.09mm,.11mm,.13mm,.15mm,.17m,.20mm,.24mm,.28mm,.32mm,.36mm,.40mm,.44mm,.48mm,.55mm,.65mm,.75mm,.85mm,.95mm,1.1mm,1.3mm,1.5mm,.7mm,1.9mm,22.5mm,27.5mm

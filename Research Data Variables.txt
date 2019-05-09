@@ -1,0 +1,105 @@
+mc3e
+
+1	Time [second]; UT seconds from midnight on day aircraft flight started
+2	Air Temperature Corrected for Dynamic Heating (Based first on the main temperatue/pitot instrument and secondarly based on the backup temperature/pitot instrument) [degC]
+3	Mach Number (Based first on the main temperatue/pitot instrument and secondarly based on the backup temperature/pitot instrument)
+4	Indicated Air Speed (Based first on the main pitot instrument and secondarly based on the backup pitot instrument) [m/s]
+5	True Air Speed (Based first on the main temperatue/pitot instrument and secondarly based on the backup temperature/pitot instrument) [m/s]
+6	Pressure Altitude [m]
+7	Potential Temperature (Based first on the main temperatue/pitot instrument and secondarly based on the backup temperature/pitot instrument) [degK]
+8	Pitot Pressure from Wing Probe [hPa] {Calibration:  slope = 60.797701 offset = -150.48263}
+9	Aircraft Cabin Pressure [millibar]
+10	Static Pressure [hPa] {Calibration:  slope = 207.08000 offset = -0.71000000}
+11	Dewpoint Temperature from EG&G Probe [degC] {Calibration:  slope = 20.000000 offset = -70.000000}
+12	Mixing Ratio by weight from the Laser Hygrometer [ppmw]
+13	Dew Point Temperature from the Laser Hygrometer [degrees Celsius]
+14	Frost Point Temperature from the Laser Hygrometer [degrees Celsius]
+15	Aircraft Roll Angle from the Applanix POS System [degrees]
+16	Aircraft Pitch Angle from the Applanix POS System [degrees]
+17	Aircraft Heading Angle [degrees]; 0-360 with 0 being North
+18	Aircraft Z-direction (Vertical) Acceleration for the Applanix POS system [m/s^2]
+19	Aircraft Latitude from the Applanix POS System [degrees]
+20	Aircraft Longitude from the Applanix POS system [degrees]
+21	Aircraft Altitude from the Applanix POS system [m]
+22	Aircraft Speed from the Applanix POS system [m/s]
+23	Aircraft Track Angle [degrees]; 0-360 with 0 being North
+24	Alpha (Attack) Angle [degrees] {Calibration:  slope = 0.070310700 offset = 0.33308870}
+25	Beta (Sideslip) Angle [degrees] {Calibration:  slope = -0.073846080 offset = -1.6202790}
+26	Vertical Velocity of the aircraft based on the change in position over a 2 seceond interval [m/s]
+27	Z (Vertical) Component of the Wind Speed [m/s]
+28	Horizontal Wind Speed [m/s]
+29	Horizontal Wind Direction [degrees]; True Direction From Which it Blows
+30	Turbulence parameter (Eddy Dissipation Rate) based on Wing Pitot pressure [cm^2/3*s^-1]
+31	Liquid Water Content based on King Probe measurement adjusted (cloud threshold =  5.1 [#/cm^3], cloud interval = 30.0 [s] and adjustment slope = 0.500) for the baseline offset [g/m^3]
+32	Total Water Content based on the Nevzorov Probe measurement
+33	Liquid Water Content based on the Nevzorov Probe measurement with correction for  residual ice (beta = 0.110000) [g/m^3]
+34	Number Concentration of Droplets Based on the Cloud Droplet Probe [#/cc]
+35	Liquid Water Content Based on the Cloud Droplet Probe [g/m^3]
+36	Cloud Droplet Probe's Mean Droplet Diameter [um]
+37	Cloud Droplet Probe's Mean Droplet Volume Diameter [um]
+38	Cloud Droplet Probe's Effective Droplet Radius [um]
+39	Number concentration of droplets based on the 2-DC Probe measurements [#/cm^3]
+40	Mean droplet diameter based on the 2-DC Probe measurements [um]
+41	Mean droplet volume diameter based on the 2-DC Probe measurements [um]
+42	Effective droplet radius based on the 2-DC Probe measurements [um]
+43	The current Sensor (MSO) frequency from the Icing Detector [Hz]
+44	Total Concentration from CPC [#/cm^3]
+45	Date Stamp based on data file name (Example: 941119 is 19 November 1994) [stamp]
+
+1Hz
+
+1	Time [second]; UT seconds from midnight on day aircraft flight started
+2	CDP channel 1 concentration [#/(cm^3)] (channel size range 0.951 um to 3.123 um diameter)
+3	CDP channel 2 concentration [#/(cm^3)] (channel size range 3.123 um to 3.893 um diameter)
+4	CDP channel 3 concentration [#/(cm^3)] (channel size range 3.893 um to 6.101 um diameter)
+5	CDP channel 4 concentration [#/(cm^3)] (channel size range 6.101 um to 7.461 um diameter)
+6	CDP channel 5 concentration [#/(cm^3)] (channel size range 7.461 um to 8.724 um diameter)
+7	CDP channel 6 concentration [#/(cm^3)] (channel size range 8.724 um to 9.801 um diameter)
+8	CDP channel 7 concentration [#/(cm^3)] (channel size range 9.801 um to 10.903 um diameter)
+9	CDP channel 8 concentration [#/(cm^3)] (channel size range 10.903 um to 11.224 um diameter)
+10	CDP channel 9 concentration [#/(cm^3)] (channel size range 11.224 um to 12.106 um diameter)
+11	CDP channel 10 concentration [#/(cm^3)] (channel size range 12.106 um to 12.549 um diameter)
+12	CDP channel 11 concentration [#/(cm^3)] (channel size range 12.549 um to 12.898 um diameter)
+13	CDP channel 12 concentration [#/(cm^3)] (channel size range 12.898 um to 14.013 um diameter)
+14	CDP channel 13 concentration [#/(cm^3)] (channel size range 14.013 um to 15.635 um diameter)
+15	CDP channel 14 concentration [#/(cm^3)] (channel size range 15.635 um to 17.731 um diameter)
+16	CDP channel 15 concentration [#/(cm^3)] (channel size range 17.731 um to 20.298 um diameter)
+17	CDP channel 16 concentration [#/(cm^3)] (channel size range 20.298 um to 22.598 um diameter)
+18	CDP channel 17 concentration [#/(cm^3)] (channel size range 22.598 um to 24.428 um diameter)
+19	CDP channel 18 concentration [#/(cm^3)] (channel size range 24.428 um to 25.977 um diameter)
+20	CDP channel 19 concentration [#/(cm^3)] (channel size range 25.977 um to 27.372 um diameter)
+21	CDP channel 20 concentration [#/(cm^3)] (channel size range 27.372 um to 28.859 um diameter)
+22	CDP channel 21 concentration [#/(cm^3)] (channel size range 28.859 um to 30.354 um diameter)
+23	CDP channel 22 concentration [#/(cm^3)] (channel size range 30.354 um to 32.433 um diameter)
+24	CDP channel 23 concentration [#/(cm^3)] (channel size range 32.433 um to 34.948 um diameter)
+25	CDP channel 24 concentration [#/(cm^3)] (channel size range 34.948 um to 37.164 um diameter)
+26	CDP channel 25 concentration [#/(cm^3)] (channel size range 37.164 um to 39.083 um diameter)
+27	CDP channel 26 concentration [#/(cm^3)] (channel size range 39.083 um to 40.754 um diameter)
+28	CDP channel 27 concentration [#/(cm^3)] (channel size range 40.754 um to 42.376 um diameter)
+29	CDP channel 28 concentration [#/(cm^3)] (channel size range 42.376 um to 43.986 um diameter)
+30	CDP channel 29 concentration [#/(cm^3)] (channel size range 43.986 um to 45.872 um diameter)
+31	CDP channel 30 concentration [#/(cm^3)] (channel size range 45.872 um to 48.718 um diameter)
+32	Number Concentration of Droplets Based on the Cloud Droplet Probe [#/cc]
+33	Liquid Water Content Based on the Cloud Droplet Probe [g/m^3]
+34	Cloud Droplet Probe's Mean Droplet Diameter [um]
+35	Cloud Droplet Probe's Mean Droplet Volume Diameter [um]
+36	Cloud Droplet Probe's Effective Droplet Radius [um]
+37	Cloud Droplet Probe's Median Droplet Diameter [um]
+38	Cloud Droplet Probe's Median Droplet Volume Diameter [um]
+39	The electrical current flowing throught the Cloud Droplet Probe laser diode [mAmps]
+40	The amount of focused, unobstructed laser light collected in the dump spot monitor of the Cloud Droplet Probe [volts]
+41	The temperature at the Cloud Droplet Probe's signal and power distribution board [C]
+42	The temperature of the laser heat sink on the Cloud Droplet Probe [C]
+43	The voltage from the Cloud Droplet Probe's sizer detector [volts]
+44	The voltage from the Cloud Droplet Probe's qualifier detector [volts]
+45	The power 5-volt reference for the Cloud Droplet Probe's control system [volts]
+46	The temperature at the digital board of the Cloud Droplet Probe [C]
+47	Beam Fraction (Ratio of total count to total strobes) [None]
+48	Total Strobes (All particles within the laser beam [None]
+49	Cloud Droplet Probe's Standard Deviation of the Mean Radius [um]
+50	Cloud Droplet Probe's Relative Dispersion [None]
+51	Cloud Droplet Probe's Effective Radius Ratio based on Effective Radius, Concentration and Liquid Water Content [None]
+52	Cloud Droplet Probe's Effective Radius Ratio based on Theorical Sytem Theory Equation [None]
+53	Cloud Droplet Probe's Sample Volume [cm^3]
+54	Cloud Droplet Probe's Sample Area [mm^2]
+55	Cloud Droplet Probe's Shape Parameter [None]
